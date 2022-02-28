@@ -25,10 +25,7 @@ $('#myModal').on('hide.bs.modal', function (e) {
     $("#video").attr('src',$videoSrc); 
 }) 
     
-    
-
-
-  
   
 // document ready  
 });
+
