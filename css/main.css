@@ -20,7 +20,8 @@ body {
   height: 100vh; }
 
   .navbar-light .navbar-toggler-icon{
-  background-image: url(../imagenes/menu.svg) !important; }
+  background-image: url(../imagenes/menuu.png) !important;
+color: #fff; }
 
 #maintrabajos{
   height: 100vh;
