@@ -19,7 +19,7 @@ body {
 #listaedu {
   height: 100vh; }
 
-.navbar-light.navbar-toggler-icon {
+  .navbar-light .navbar-toggler-icon{
   background-image: url(../imagenes/menu.svg) !important; }
 
 #maintrabajos{
