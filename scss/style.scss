@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+ body {
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+    background:no-repeat center fixed;
+    
+    margin: 0;
+    margin-bottom: 40px;
+  }
+ 
+
+
+/*vavbar*/
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav >.nav-link {
+    color: white;
+
+}
+
+/*galeria*/
+.img:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+
+#listaedu{
+    height: 100vh;
+}
+.navbar-toggler-icon{
+    background-image: url(/imagenes/menuu.png)!important;
+}
+
+/*footer*/
+footer.nb-footer {
+    background-color: rgb(33,37,41);
+    border-top: 4px solid #b78c33;
+    position: bottom ;}
+    footer.nb-footer .about {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1170px;
+    text-align: center; }
+    footer.nb-footer {
+    font-size: 13px;
+    color: #999;
+    margin-top: 30px; }
+    footer.nb-footer .social-media {
+    margin-top: 15px; }
+    footer.nb-footer .social-media ul li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #b78c33;
+    border: 1px solid rgba(255, 255, 255, 0.3); }
+    footer.nb-footer .social-media ul li a:hover {
+    background: #b78c33;
+    color: #fff;
+    border-color: #b78c33; }
+    footer.nb-footer {
+    margin-top: 30px; }
+    
+   
+  
+    footer.nb-footer .copyright {
+    margin-top: 15px;
+    padding: 7px 0;
+    color: #999; }
