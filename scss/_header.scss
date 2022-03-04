@@ -1,0 +1,10 @@
+/*vavbar*/
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav >.nav-link {
+    color: white;
+
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url(../imagenes/menuu.png)!important;
+    color: #fff;
+}
