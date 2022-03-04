@@ -77,12 +77,25 @@ footer.nb-footer .copyright {
     padding: 10px; }
 
 .about img {
-  float: left; }
-  .about img p {
-    text-align: center; }
+  float: inherit;
+  padding: 0;
+  margin: 0;
+  width: 104px;
+  height: 74px; }
+
+ .img-responsive{
+   display: flex;
+   text-align: left;
+ }
+ 
+.about img p {
+  text-align: center; }
 
 .img-fluid {
   max-width: 95%;
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+.about li a {
+  text-align: center; }

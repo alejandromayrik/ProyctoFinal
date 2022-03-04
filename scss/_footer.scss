@@ -46,16 +46,21 @@ footer.nb-footer {
           }
       }
     
-      .about img{
-        float: left;
-        p{
-          text-align: center;
-        }
-      }
+      .about img {
+        float:inherit;
+        padding: 0;
+        margin: 0;
+        width: 104px;
+        height: 74px; }
+        .about img p {
+          text-align: center; }
+          
       .img-fluid {
         max-width: 95%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-      
+      .about li a {
+        text-align: center;
+      }
