@@ -87,7 +87,7 @@ a.btn1:hover:before {
 
 /*vavbar*/
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav > .nav-link {
-  color: white; }
+  color: rgb(255, 255, 255); }
 
 .navbar-light .navbar-toggler-icon {
   background-image: url(../imagenes/menuu.png) !important;
@@ -185,4 +185,10 @@ footer.nb-footer .copyright {
   position: relative;
   text-decoration: none;
   z-index: 1;
+  }
+
+
+  .mapa-contactos{
+    display: flex;
+    justify-content: center;
   }

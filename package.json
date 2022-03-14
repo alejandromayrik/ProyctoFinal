@@ -1,21 +1,19 @@
 {
-  "name": "buffalowod-mayrink-boostrap",
+  "name": "proyctofinal",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
-    "watch-css": "nodemon -e sass -x \"npm run build-css\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alejandromayrik/boostrap.git"
+    "url": "git+https://github.com/alejandromayrik/ProyctoFinal.git"
   },
-  "author": "Alejandro Mayrink",
+  "author": "mayrink alejandro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alejandromayrik/boostrap/issues"
+    "url": "https://github.com/alejandromayrik/ProyctoFinal/issues"
   },
-  "homepage": "https://github.com/alejandromayrik/boostrap#readme"
+  "homepage": "https://github.com/alejandromayrik/ProyctoFinal#readme"
 }
