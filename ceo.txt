@@ -1,0 +1,5 @@
+﻿Estuve modificando las pagina de contacto y sobre nosotros.
+Quite del navbar  el link de inicio ya que el logo-brand cumple esa función. 
+Agregue en todas las paginas los metas de keys y descripcion.
+Arregle el title de todas las paginas y agrego H1.  
+Unifique el color de fondo en todas las paginas. 

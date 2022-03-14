@@ -1,12 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
+@import url('https://fonts.googleapis.com/css2? family= Hubballi & display=swap');
 body {
   font-family: 'Ubuntu', sans-serif;
   height: 100vh;
-  background: no-repeat center fixed;
+  background-color: #f1f1f1;
   margin: 0;
   margin-bottom: 40px; }
 
+.buffalowood h1{
+    display: flex;  
+    font-family: 'Hubballi' !important;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+   
+    }
+
+
+.h11{
+  color: #a30202;
+  font-size: 40px;
+  font-family: 'Hubballi' !important;
+    }
+
+.h12{
+  color: #a30202;
+  font-family: 'Hubballi' !important;
+  margin-left: 50px;
+  
+
+}
 /*Sobre Nootros*/
 .about-us {
   padding: 60px 0;
@@ -96,12 +123,12 @@ a.btn1:hover:before {
 /*galeria*/
 .img:hover {
   transform: scale(1.1);
-  transition: all 1s; }
+  transition: all 1s;}
 
 /*footer*/
 footer.nb-footer {
   background-color: #212529;
-  border-top: 4px solid #b78c33;
+  border-top: 4px solid #b60909;
   position: bottom; }
 
 footer.nb-footer .about {
@@ -125,13 +152,13 @@ footer.nb-footer .social-media ul li a {
   line-height: 45px;
   border-radius: 50%;
   font-size: 16px;
-  color: #b78c33;
-  border: 1px solid rgba(255, 255, 255, 0.3); }
+  color: #047704;
+  border: 1px solid rgba(255, 16, 16, 0.3); }
 
 footer.nb-footer .social-media ul li a:hover {
-  background: #b78c33;
-  color: #fff;
-  border-color: #b78c33; }
+  background: #047704;
+  color: #b60909;
+  border-color: #ffffff; }
 
 footer.nb-footer {
   margin-top: 30px; }
@@ -172,4 +199,4 @@ footer.nb-footer .copyright {
 .about li a {
   text-align: center; }
 
- 
+  
