@@ -1,0 +1,17 @@
+@mixin cuadrado ($roojo,$ancho) {
+    color: $roojo;
+    font-size: $ancho;
+    font-family: 'Hubballi' !important;
+}
+
+.encab2{
+    @include cuadrado (#053469,35px);
+}
+
+.h11{
+    @include cuadrado (#e60606,40px);
+}
+
+.hnegro{
+    @include cuadrado(black,40px )
+}

@@ -36,15 +36,11 @@ body {
   margin-bottom: 10px;
   }
 
-.h11{
-  color: #a30202;
-  font-size: 40px;
-  font-family: 'Hubballi' !important;
 
-    }
-
-//maps//
-
-$redes: (
+.buff{
+  @extend .hnegro;
   
-)
+}
+
+
+

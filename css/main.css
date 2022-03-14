@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
-@import url('https://fonts.googleapis.com/css2? family= Hubballi & display=swap');
 body {
   font-family: 'Ubuntu', sans-serif;
   height: 100vh;
@@ -8,122 +7,52 @@ body {
   margin: 0;
   margin-bottom: 40px; }
 
-.buffalowood h1{
-    display: flex;  
-    font-family: 'Hubballi' !important;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif ;
-    background-color: rgba(255, 255, 255, 0);
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-   
-    }
-
-
-.h11{
-  color: #a30202;
-  font-size: 40px;
-  font-family: 'Hubballi' !important;
-    }
-
-.h12{
-  color: #a30202;
-  font-family: 'Hubballi' !important;
-  margin-left: 50px;
-  
-
-}
-/*Sobre Nootros*/
-.about-us {
-  padding: 60px 0;
-  width: 100%;
-  background-color: #f1f1f1;
-}
-.about-img img {
-  border: 1px solid #000;
-  padding: 5px;
-  border-radius: 50%;
-  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
-}
-.about-sub-heading h5 {
-  color: #a30202;
-  font-size: 30px;
-}
-.about-content h2 {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-.about-content p {
-  margin-bottom: 30px;
-  color: #6e6e6e;
-}
-.about-sub i {
-  width: 40px;
-  height: 40px;
-  background-color: #000000;
-  color: #fff;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 40px;
-  margin-right: 10px;
-}
-.about-sub i h6{
-  font-size: 18px;
-  }
-.btn1 {
-  padding: 12px 40px;
-  border: 1px solid #000000;
-  color: rgb(5, 0, 0);
-  display: inline-block;
-  left: 27%;
-  margin-top: 20px;
-  border-radius: 5px;
-  position: relative;
-  text-decoration: none;
-  z-index: 1;
-}
-.btn1:hover {
-  color: #fff;
-  text-decoration: none;
-}
-a.btn1:before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  background-color: #000000;
-  transition: 0.5s;
-  z-index: -1;
-  
-}
-a.btn1:hover:before {
-  width: 100%;
-  height: 100%;
-  color: #fff;
-}
-
-
 #maintrabajos {
   height: 100vh; }
 
 #listaedu {
   height: 100vh; }
 
+.mapa-contactos {
+  justify-content: center; }
+
+.buffalowood h1 {
+  display: flex;
+  font-family: 'Hubballi' !important;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px; }
+
 /*vavbar*/
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav > .nav-link {
-  color: rgb(255, 255, 255); }
+  color: white; }
 
 .navbar-light .navbar-toggler-icon {
   background-image: url(../imagenes/menuu.png) !important;
   color: #fff; }
 
+.encab2 {
+  color: #053469;
+  font-size: 35px;
+  font-family: 'Hubballi' !important; }
+
+.h11 {
+  color: #e60606;
+  font-size: 40px;
+  font-family: 'Hubballi' !important; }
+
+.hnegro, .buff {
+  color: black;
+  font-size: 40px;
+  font-family: 'Hubballi' !important; }
+
 /*galeria*/
 .img:hover {
   transform: scale(1.1);
-  transition: all 1s;}
+  transition: all 1s; }
 
 /*footer*/
 footer.nb-footer {
@@ -182,11 +111,6 @@ footer.nb-footer .copyright {
   width: 104px;
   height: 74px; }
 
- .img-responsive{
-   display: flex;
-   text-align: left;
- }
- 
 .about img p {
   text-align: center; }
 
@@ -199,4 +123,71 @@ footer.nb-footer .copyright {
 .about li a {
   text-align: center; }
 
-  
+/*Sobre Nootros*/
+.about-us {
+  padding: 60px 0;
+  width: 100%;
+  background-color: #f1f1f1; }
+
+.about-img img {
+  border: 1px solid #000;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3); }
+
+.about-sub-heading h5 {
+  color: #a30202;
+  font-size: 30px; }
+
+.about-content h2 {
+  font-size: 20px;
+  margin-bottom: 20px; }
+
+.about-content p {
+  margin-bottom: 30px;
+  color: #6e6e6e; }
+
+.about-sub i {
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px; }
+
+.about-sub i h6 {
+  font-size: 18px; }
+
+.btn1 {
+  padding: 12px 40px;
+  border: 1px solid #000000;
+  color: #050000;
+  display: inline-block;
+  left: 27%;
+  margin-top: 20px;
+  border-radius: 5px;
+  position: relative;
+  text-decoration: none;
+  z-index: 1; }
+
+.btn1:hover {
+  color: #fff;
+  text-decoration: none; }
+
+a.btn1:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #000000;
+  transition: 0.5s;
+  z-index: -1; }
+
+a.btn1:hover:before {
+  width: 100%;
+  height: 100%;
+  color: #fff; }
