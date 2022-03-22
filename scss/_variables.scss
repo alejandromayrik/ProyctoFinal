@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
 @mixin cuadrado ($roojo,$ancho) {
     color: $roojo;
     font-size: $ancho;
@@ -15,3 +17,5 @@
 .hnegro{
     @include cuadrado(black,40px )
 }
+
+

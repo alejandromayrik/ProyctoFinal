@@ -33,4 +33,29 @@ body {
 }
 
 
+.ml9 {
+  position: relative;
+  text-align: center;
+  color: #f1f1f1;
+  background-image: url(../imagenes/fondoindex.jpg);
+  font-weight: 200;
+  font-size: 4em;
+  font-family: 'Hubballi';
+  
 
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
