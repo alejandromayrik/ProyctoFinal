@@ -3,3 +3,7 @@ Quite del navbar  el link de inicio ya que el logo-brand cumple esa función.
 Agregue en todas las paginas los metas de keys y descripcion.
 Arregle el title de todas las paginas y agrego H1.  
 Unifique el color de fondo en todas las paginas. 
+---------------------------------------------------------------------------
+23/3/22
+Agrege un encabezado con movimiento y en el main del index al final y sobre el footer un MARQUEE haciendo referencia a los 2000.
+Tambien agrege un mapa diferente para Contactos para diferenciar del que estaba en Formacion. y los encabezados de cada uno igual. 
